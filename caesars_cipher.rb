@@ -49,7 +49,6 @@ def caesar_cipher str, shift = 0
         else
           final_cipher << alphabets.key(value)
         end
-        
       end
     else
       final_cipher << letter
